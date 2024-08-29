@@ -1,7 +1,7 @@
 function Footer() {
   return (
     <footer>
-      <p>&copy; Akos Tutorial 2024</p>
+      <p>&copy; {new Date().getFullYear()} Akos Tutorial</p>
     </footer>
   );
 }
