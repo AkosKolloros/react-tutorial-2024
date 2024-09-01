@@ -1,15 +1,13 @@
-import Button from "./ButtonModule/Button";
-import Card from "./CardModule/Card";
-import Footer from "./FooterModule/Footer";
-import Header from "./HeaderModule/Header";
+import Student from "./StudentModule/Student";
 
 function App() {
   return (
     <>
-      {/* <Header></Header> */}
-      {/* <Button></Button> */}
-      {/* <Card></Card>* /}
-      {/* <Footer></Footer> */}
+      <Student name="SpongeBob" age={30} isStudent={true}></Student>
+      <Student name="Patrick" age={42} isStudent={false}></Student>
+      <Student name="Squidward" age={50} isStudent={false}></Student>
+      <Student name="Sandy" age={27} isStudent={true}></Student>
+      <Student></Student>
     </>
   );
 }
