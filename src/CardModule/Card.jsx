@@ -1,4 +1,4 @@
-import profilePic from "./assets/IMG_20240829_151257.jpg";
+import profilePic from "../assets/IMG_20240829_151257.jpg";
 
 function Card() {
   return (
