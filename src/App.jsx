@@ -1,9 +1,9 @@
-import UserGreeting from "./UserGreetingModule/UserGreeting";
+import List from "./ListModule/List";
 
 function App() {
   return (
     <>
-      <UserGreeting isLoggedIn={true} username="Akos"></UserGreeting>
+      <List></List>
     </>
   );
 }
